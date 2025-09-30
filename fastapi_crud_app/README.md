@@ -10,6 +10,8 @@
 
 # > pytest test_app.py --disable-warnings -v
 ---
+Use - /docs to access the swagger interface when the app is running
+---
 
 ## Available Endpoints:
 
