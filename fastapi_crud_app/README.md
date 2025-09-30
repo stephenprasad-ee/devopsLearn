@@ -1,5 +1,5 @@
-# Welcome to the Steve's FastAPI CRUD API! with Swagger built-in!
-
+## Welcome to the Steve's FastAPI CRUD API! with Swagger built-in!
+---
 # Instructions to work with the app:
 
 # Use the following command to execute uvicorn locally with reload option:
@@ -9,7 +9,7 @@
 # Use the following command to execute tests:
 
 # > pytest test_app.py --disable-warnings -v
-
+---
 
 ## Available Endpoints:
 
