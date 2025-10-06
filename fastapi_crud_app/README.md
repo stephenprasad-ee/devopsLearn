@@ -1,5 +1,8 @@
 ## Welcome to the Steve's FastAPI CRUD API! with Swagger built-in!
 ---
+I used FastAPI and Pydantic (since it came with built-in schema verification in case I extend the framework) so that I could also leverage the swagger documentation without having to put in any extra effort.
+
+---
 # Instructions to work with the app:
 
 # Use the following command to execute uvicorn locally with reload option:
