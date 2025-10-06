@@ -60,7 +60,16 @@ Use - /docs to access the swagger interface when the app is running
    }
 
 6. Delete Item by ID
-   
+
+---
+
+Note: If anyone wants to try running this locally, please use "pip install" to install the following dependencies:
+fastapi
+uvicorn
+python-json-logger
+pytest
+httpx
+
    DELETE /items/{item_id}
    
    Replace {item_id} with the integer ID of the item.
