@@ -69,6 +69,7 @@ Use - /docs to access the swagger interface when the app is running
 ---
 
 Note: If anyone wants to try running this locally, please use "pip install" to install the following dependencies:
+
 fastapi
 
 uvicorn
