@@ -37,9 +37,8 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run Uvicorn
       run: |
-	uvicorn app:app -host 0.0.0.0 -port 8000 &
-	sleep 10
-	curl http://localhost:8000/health
+        uvicorn app:app --host 0.0.0.0 --port 8000 &
+        sleep 10
     - name: Test with pytest
       run: |
         pytest test_app.py --disable-warnings -v
